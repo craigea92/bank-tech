@@ -26,5 +26,9 @@ describe Bank do
       bank.deposit(100)
       expect(bank.withdraw(50)).to eq 50
     end
+
+    it "should raise an error when money is more than account total" do
+      expect{ bank.withdraw(20) }.to raise_error "Insufficient Funds!"
+    end
   end
 end
