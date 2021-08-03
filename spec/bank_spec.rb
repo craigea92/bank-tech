@@ -9,4 +9,8 @@ describe Bank do
     expect(bank.deposit(100)).to eq 100
   end
 
+  it "should show 50 when passed 50" do
+    expect(bank.deposit(50)).to eq 50
+  end
+  
 end

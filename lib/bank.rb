@@ -1,7 +1,7 @@
 class Bank
 
   def deposit(money)
-    100
+    money
   end
 
 end
