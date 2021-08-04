@@ -11,18 +11,21 @@ date       || credit || debit   || balance
 ```
 
 ### User stories
-
+```
 As a bank customer  
 so that I can keep my money at a safe place until I need it
 I want to deposit my money
-
+```
+```
 As a bank customer
 so that I can take out my money whenever I want
 I want to withdraw my money I've deposited
-
+```
+```
 As a bank customer
 so that I can see my money transaction ordered by date
 I want to print my bank statement
+```
 
 ### Technology
 
